@@ -1,0 +1,135 @@
+*{
+  font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+
+}
+
+.headerA{
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+
+.header1 {
+  background-image: url("background_pic.jpg");
+  height:300px;
+}
+
+.header1 h1{
+  font-weight:bold;
+}
+
+.header1 img{
+  width :160px;
+  border:solid 5px white;
+  padding: 0px;
+  position: absolute;
+  top:120px;
+  left:30px;
+  border-radius: 100px;
+}
+
+.header2{
+  display:block;
+  float:left;
+  margin-left:10%;
+}
+
+.header2 h2{
+  font-weight:bold;
+}
+
+.header2 p{
+  font-size:18px;
+  font-height:130%;
+}
+
+.box1, .box2, .box3, .box4{
+ clear:both;
+ display:block;
+ width: 100%;
+ height: 300px;
+ border-width: 1px;
+ border-style: solid;
+ margin-top:20px;
+ margin-bottom: 20px;
+ border-radius: 20px;
+}
+
+
+.box1 {
+ border-color: #b0f7ff;
+  background: radial-gradient(#b0f7ff, #ebfffa);
+  box-shadow: 3px 3px 3px #b0f7ff;
+}
+
+.box2 {
+ border-color: #a1ffa5;
+ background: radial-gradient(#a1ffa5, #ebfffa);
+ box-shadow: 3px 3px 3px #a1ffa5;
+}
+
+.box3 {
+ border-color: #ff7589;
+ background: radial-gradient(#ff7589, #ebfffa);
+ box-shadow: 3px 3px 3px #ff7589;
+}
+
+.box4 {
+ border-color: #fbff8f;
+ background: radial-gradient(#fbff8f, #ebfffa);
+ box-shadow: 3px 3px 3px #fbff8f;
+}
+
+.image img{
+  height :150px;
+  /*width :240px;*/
+  padding:10px 40px;
+  margin:30px;
+  margin-right:10px;
+  margin-left:40px;
+}
+
+.image{
+  width:40%;
+  height:200px;
+  float:left;
+  position: relative;
+  padding-top:0px;
+}
+
+.description {
+  width :60%;
+  height:200px;
+  float:right;
+  padding-top:10px;
+  padding-right:20px;
+}
+
+.description p{
+  font-size:20px;
+}
+
+.feed{
+  opacity: 0;
+  transition: 0.7s;
+  z-index: 1;
+}
+
+.feed:hover{
+  opacity:1;
+}
+
+.name {
+  width: 80%;
+  height: 40px;
+  text-align: left;
+  margin-top: 5px;
+  margin-left:10px;
+}
+
+.name p{
+  font-size: 40px;
+  color:black;
+  font-weight: bold;
+  font-style: italic;
+}
